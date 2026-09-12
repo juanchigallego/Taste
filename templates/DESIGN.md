@@ -1,4 +1,7 @@
 # DESIGN.md
+
+> For a partial but substantive example showing how to fill this template, see `examples/DESIGN.md.partial.md`.
+
 ## Creative thesis
 ## Creative principles
 ## Anti-principles

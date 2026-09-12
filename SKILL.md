@@ -15,6 +15,33 @@ Use AI to explore a design space, exercise human taste to constrain it, codify w
 ## Entry
 If the user asks what Taste can do or is unsure where to begin, load `INDEX.md`. If they provide an artifact, reference, brief, URL, screenshot, repo, design file, or DESIGN.md, inspect it and enter at the most useful phase rather than restarting.
 
+## Routing table
+
+Start here. Match the input to the entry point:
+
+| Input | Entry point | Load first |
+|-------|-------------|------------|
+| Screenshot/URL showing weak/generic design | CRITIQUE → slop-rescue | `engine/critique.md`, `recipes/slop-rescue.md` |
+| "Make a logo/brand" with no direction | Force DISCOVER → POSITION first | `engine/discover.md`, `engine/position.md` |
+| Existing DESIGN.md provided | Ingest → APPLY or CRITIQUE as appropriate | `engine/apply.md` or `engine/critique.md` |
+| "Improve this design" + artifact | CRITIQUE first to diagnose | `engine/critique.md` |
+| Reference images / mood board | REFERENCE → DIVERGE | `engine/reference.md`, `engine/diverge.md` |
+| Vague brief ("make it feel premium") | DISCOVER to extract real requirements | `engine/discover.md` |
+| Specific artifact request + thesis exists | APPLY | `engine/apply.md` |
+| "Explore different directions" | DIVERGE | `engine/diverge.md` |
+| Choosing between directions | SELECT | `engine/select.md` |
+| Direction chosen, need system | CODIFY | `engine/codify.md` |
+
+**When in doubt:** Start with CRITIQUE if an artifact exists, DISCOVER if it doesn't.
+
+## Examples
+
+For worked examples showing how to apply Taste procedures, load from `examples/`:
+- `examples/decision-history.filled.md` — KEEP/REMOVE/PUSH evolution across 3 direction versions
+- `examples/DESIGN.md.partial.md` — partial but substantive DESIGN.md for a fictional brand
+
+Examples are exemplars, not templates. They show *how* to think, not what to copy.
+
 ## State machine
 `DISCOVER → POSITION → REFERENCE ↔ DIVERGE ↔ SELECT → CODIFY → APPLY ↔ CRITIQUE → SHIP`
 

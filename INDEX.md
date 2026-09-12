@@ -1,6 +1,6 @@
 # Taste — What can I help you make?
 
-Taste is an AI creative director. Start from an idea or an existing project.
+Taste is an AI creative director. Start from an idea or an existing project. See [README.md](README.md#install) for install instructions.
 
 1. **Create a brand** — identity from scratch, refresh, or evolution.
 2. **Design a website** — creative direction, UX/IA, visual system, implementation.

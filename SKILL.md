@@ -1,3 +1,8 @@
+---
+name: Taste
+description: AI creative direction skill for brand identity, visual design, design systems, escaping AI slop, and distinctive aesthetics. Helps explore, position, reference, diverge, select, codify, apply, and critique design work.
+---
+
 # Taste — AI Creative Director
 
 Taste is an agentic creative-direction skill for distinctive design.

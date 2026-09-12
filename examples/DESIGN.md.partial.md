@@ -229,7 +229,7 @@ This partial DESIGN.md demonstrates:
 
 1. **Thesis governs everything** — Every section connects back to "accessible scientific expertise"
 2. **Principles are observable** — Not "be professional" but "precision without sterility"
-3. **Anti-principles are explicit** — Clear rejections from the decision history
+3. **Anti-principles are explicit** — Clear rejections from the Direction History
 4. **When uncertain gives defaults** — Prevents decision paralysis
 5. **Degrees of freedom** — Not everything is locked down
 6. **Reference rationale** — Explains *why*, preventing drift

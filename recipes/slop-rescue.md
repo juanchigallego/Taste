@@ -168,4 +168,4 @@ Sometimes the rescue reveals the original brief was wrong:
 - `engine/critique.md` — the seven-layer diagnostic
 - `engine/diverge.md` — creating distinctive worlds
 - `engine/codify.md` — systematizing distinctiveness
-- `examples/decision-history.filled.md` — example of structured rescue decisions
+- `examples/decision-history.filled.md` — Direction History example for rescue decisions

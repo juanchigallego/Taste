@@ -1,6 +1,6 @@
 # Direction History — Terracotta (Soil Testing Platform)
 
-This is an example of a completed decision history showing how directions evolve through KEEP/REMOVE/PUSH feedback across multiple rounds.
+This is an example of a completed Direction History showing how directions evolve through KEEP/REMOVE/PUSH feedback across multiple rounds.
 
 ---
 
@@ -109,7 +109,7 @@ This is an example of a completed decision history showing how directions evolve
 
 ## How to use this example
 
-This decision history demonstrates:
+This Direction History demonstrates:
 
 1. **Rejection is productive** — V1's failure revealed what "scientific" shouldn't mean
 2. **Merging is not collaging** — V3 wasn't "V1 colors + V2 photography" but a new hypothesis

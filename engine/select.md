@@ -79,7 +79,7 @@ Record the decision with rationale:
 - [ ] Trade-offs named, not hidden
 - [ ] Hybrid has a coherent hypothesis, not a parts list
 - [ ] "Nothing works" diagnosed to a specific cause
-- [ ] Selection rationale recorded for decision history
+- [ ] Selection rationale recorded in Direction History
 
 ## Anti-patterns
 - **Beauty pageant**: Picking the "best looking" without thesis evaluation

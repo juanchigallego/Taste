@@ -36,13 +36,14 @@ Taste uses progressive disclosure: load `SKILL.md` first, then only the phase/mo
 - `SKILL.md` — always load first; contains routing table and orchestration logic
 - `engine/*.md` — phase procedures (critique, diverge, select, codify, reference, etc.)
 - `recipes/*.md` — task-specific workflows (slop-rescue, brand-from-scratch, etc.)
-- `templates/*.md` — blank structures for DESIGN.md, decision-history, critique output
+- `templates/*.md` — blank structures for DESIGN.md, Direction History, critique output
 - `examples/*.md` — filled exemplars showing how the procedures work in practice
 - `principles/slop-check.md` — the slop detection checklist
 
 **The `examples/` folder:**
-- `examples/decision-history.filled.md` — shows 3 direction versions with KEEP/REMOVE/PUSH evolution
-- `examples/DESIGN.md.partial.md` — shows a partial but substantive DESIGN.md for a fictional brand
+- `examples/decision-history.filled.md` — Direction History with 3 direction versions and KEEP/REMOVE/PUSH evolution
+- `examples/DESIGN.md.partial.md` — partial but substantive DESIGN.md for a fictional brand
+- `examples/critique.filled.md` — completed critique of a Terracotta dashboard artifact
 
 Examples are exemplars, not defaults. Load them when you need to see how a procedure applies; don't copy their content.
 

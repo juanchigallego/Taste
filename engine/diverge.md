@@ -44,7 +44,7 @@ For each world, define:
 | **Test artifacts** | 3–5 artifacts that would prove this world works |
 
 ### 4. Generate world evidence
-Use image generation to test each world. Generate artifacts that stress-test the direction:
+Use image generation to test each world (see `tools/image-generation.md` for prompt structure and KEEP/REMOVE/PUSH workflow). Generate artifacts that stress-test the direction:
 - Something typographic (poster, headline lockup, type specimen)
 - Something photographic or image-driven (campaign image, product shot, editorial spread)
 - Something functional (UI fragment, card, receipt, email, packaging)
@@ -64,7 +64,7 @@ When user responds, translate their feedback into structured directives:
 | **REMOVE** | This element is wrong/distracting | Eliminate from all future versions |
 | **PUSH** | This is interesting, go further | Intensify, exaggerate, explore more |
 
-Record these in the decision history. Each KEEP/REMOVE/PUSH should be specific:
+Record these in the Direction History. Each KEEP/REMOVE/PUSH should be specific:
 - **Bad:** "KEEP the vibe"
 - **Good:** "KEEP the heavy slab serif paired with large photography"
 - **Bad:** "REMOVE the weirdness"
@@ -146,5 +146,5 @@ Based on feedback:
 ## See also
 - `engine/reference.md` — gathering source material
 - `engine/select.md` — choosing between worlds
-- `templates/decision-history.md` — recording KEEP/REMOVE/PUSH
-- `examples/decision-history.filled.md` — example of structured feedback
+- `templates/decision-history.md` — Direction History template for KEEP/REMOVE/PUSH
+- `examples/decision-history.filled.md` — filled Direction History example

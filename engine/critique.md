@@ -20,7 +20,7 @@ Evaluate design work against the creative thesis and identify the *earliest* lay
 - Identify what artifact type this is and what job it's meant to do
 
 ### 2. Run the seven-layer diagnostic
-Evaluate each layer in order. Stop drilling when you find the broken layer—everything downstream is likely symptomatic, not causal.
+Evaluate every layer and record pass/fail for the report. The *earliest* failure is the root cause for routing—everything downstream is likely symptomatic, not causal. Do not stop evaluating after the first failure; complete the full diagnostic, then route based on the earliest broken layer.
 
 | Layer | Question | Failure signal |
 |-------|----------|----------------|
@@ -118,4 +118,4 @@ State one clear action:
 ## See also
 - `principles/slop-check.md` — the slop-signal checklist
 - `templates/critique.md` — blank template for structured critique output
-- `examples/critique.filled.md` — example of a completed critique (if available)
+- `examples/critique.filled.md` — example of a completed critique (Terracotta dashboard)

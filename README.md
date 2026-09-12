@@ -28,6 +28,25 @@ For brand, visual design, design systems, or DESIGN.md work:
 
 **Important:** The skill relies on progressive disclosure across multiple folders. Do not flatten or paste only `SKILL.md` — the agent needs access to the full directory structure.
 
+## Using Taste
+
+Taste uses progressive disclosure: load `SKILL.md` first, then only the phase/mode/recipe files needed for the current task. Don't paste everything into context at once.
+
+**Key files by purpose:**
+- `SKILL.md` — always load first; contains routing table and orchestration logic
+- `engine/*.md` — phase procedures (critique, diverge, select, codify, reference, etc.)
+- `recipes/*.md` — task-specific workflows (slop-rescue, brand-from-scratch, etc.)
+- `templates/*.md` — blank structures for DESIGN.md, Direction History, critique output
+- `examples/*.md` — filled exemplars showing how the procedures work in practice
+- `principles/slop-check.md` — the slop detection checklist
+
+**The `examples/` folder:**
+- `examples/decision-history.filled.md` — Direction History with 3 direction versions and KEEP/REMOVE/PUSH evolution
+- `examples/DESIGN.md.partial.md` — partial but substantive DESIGN.md for a fictional brand
+- `examples/critique.filled.md` — completed critique of a Terracotta dashboard artifact
+
+Examples are exemplars, not defaults. Load them when you need to see how a procedure applies; don't copy their content.
+
 ### Claude Code
 
 **Personal install (available in all projects):**
